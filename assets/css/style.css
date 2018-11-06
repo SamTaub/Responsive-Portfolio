@@ -17,6 +17,11 @@ header{
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color: #777
+}
+
 h1 {
     background-color: #4aaaa5;
     color: #fff;
@@ -276,21 +281,17 @@ textarea{
         background: #fff;
         border-bottom: solid #ccc;
     }
-    
 
-
-    #profileimage{
-        float: none;
-        display: block;
-        margin: auto;
+    .responsive{
+        width: 335px;
     }
 
-    .portfolioimage{
-        float: none;
-        display: block;
-        margin: auto;
+    .imagetitle{
+        width: 335px;
     }
 
-
+    .overlay{
+        width: 335px;
+    }
 
 }
